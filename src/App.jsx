@@ -50,9 +50,9 @@ function App() {
           <Route path='/checkout' element={<Checkout />}/>
           <Route path='/checkout/success' element={<CheckoutSuccess />}/>
           <Route path='/checkout/fail' element={<CheckoutFailure />}/>
-          {/* <Route path='/course/displaylectures' element={<DisplayLectures />}/> */}
+          <Route path='/course/displaylectures' element={<DisplayLectures />}/>
         </Route>
-        <Route path='/course/displaylectures' element={<DisplayLectures />}/>
+        {/* <Route path='/course/displaylectures' element={<DisplayLectures />}/> */}
         
         <Route path='*' element={<NotFound />}></Route>
 
